@@ -37,6 +37,15 @@ let white = document.createElement("div")
 white.className = "white"
 container.appendChild(white)
 
+let obj = {}
+consle.log(obj);
+
+let id = 1;
+
+for (let i = 0; i < container.children.length; i++) {
+  container.children[0] + '';
+}
+
 let isMapping = false; 
 let mappingBtn = document.querySelector('.btn');
 
@@ -49,12 +58,7 @@ mappingBtn.addEventListener('click', () => {
   // for (let i = 0; i < container.children.length; i++) {
   //   console.log(container.children[i].classList.toggle("white_blue"));
 
-  //   black = document.querySelectorAll(".black");
-    
-  //   for (let j = 0; j < black.length; j++) {
-      
-  //   }
-  // }
+  container.children[0].classList.toggle("white_blue");
 });
 
 // CONFIG CLAVIER
